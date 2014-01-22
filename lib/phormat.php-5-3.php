@@ -2,11 +2,11 @@
 
 class phormat {
 	
-	private $rules = [
+	private $rules = array(
 		'xxx-xxxx',
 		'(xxx) xxx-xxxx',
 		'+x (xxx) xxx-xxxx'
-	];
+	);
 	
 	function __construct(array $rules = array()) {
 		
